@@ -1,10 +1,12 @@
 import "./index.css";
 import Button from '../../component/button';
 import money from "../../assets/moneyWelcome.png";
-import { Link } from "react-router-dom";
 
 
 export const welcomePage = () => {
+  const login = () => {};
+  const registration = () => {};
+
     return (
         <div className="page welcome">
             <div className="welcome__bg">
@@ -14,8 +16,10 @@ export const welcomePage = () => {
                 </div>
             </div>
             <img src={money} alt="Money" className="money__img"></img>
-             
-            <Button>Contained</Button>
+             <div className="button-container">
+            <Button onClick={registration} className="button button--active button--filled" redirectTo="/signup">Sign Up</Button>
+            <Button onClick={login} className='button' redirectTo="/signin">Sign In</Button>
+            </div>
 
         </div>
 

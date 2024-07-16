@@ -1,5 +1,10 @@
+import "./index.css";
+import { Nav } from "../../component/nav";
+
 export const signUp = () => {
     return (
-<h1>SIGNUP</h1>
+        <div className="page">
+          <Nav />    
+      </div>
     );
   };

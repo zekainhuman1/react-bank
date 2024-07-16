@@ -1,5 +1,7 @@
+import "./index.css";
+
 export const signIn = () => {
     return (
-<h1>SIGNUP</h1>
+<h1 className="page">SIGNIN</h1>
     );
   };
