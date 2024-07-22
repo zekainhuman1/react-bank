@@ -1,0 +1,25 @@
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 14px;
+    align-items: center
+  }
+  
+  .form h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .form p {
+    margin-bottom: 20px;
+    color: #888;
+  }
+  
+  .form a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  

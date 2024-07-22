@@ -1,0 +1,44 @@
+.input-container {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .text-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    height: 54px;
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px; /* Збільшуємо padding справа, щоб кнопка не перекривала текст */
+    border: 1px solid var(--color-gray);
+    border-radius: 12px;
+    outline: none;
+  }
+  
+  .input:focus {
+    border-color: var(--color-primary);
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle-password img {
+    width: 20px;
+    height: 20px;
+  }
+  
